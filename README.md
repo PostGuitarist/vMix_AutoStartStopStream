@@ -1,5 +1,9 @@
-# vMix_AutoStartStream
+# vMix_AutoStartStopStream
 
-Works by using browser input, url:
+Works by using a vMix browser input url
 
-http://10.60.0.169:8088/api/?Function=ScriptStart&Value=AutoStartStream
+## AutoStart
+http://{{URL vMix is publicly accessible on}}/api/?Function=ScriptStart&Value=AutoStartStream
+
+## AutoStop
+http://{{URL vMix is publicly accessible on}}/api/?Function=ScriptStart&Value=AutoStopStream
